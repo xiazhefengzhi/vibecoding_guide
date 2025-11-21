@@ -1,0 +1,16 @@
+# mdBook build output
+book/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.sublime-*
+
+# Node
+node_modules/

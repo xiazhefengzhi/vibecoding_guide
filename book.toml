@@ -1,0 +1,42 @@
+# book.toml
+
+[book]
+title = "Vibe Coding 实战手册"
+description = "用 AI 重构开发流程，7天上线你的第一个产品"
+authors = ["Your Name"]
+language = "zh-CN"
+multilingual = false
+src = "."
+
+[build]
+build-dir = "book"
+create-missing = true
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+curly-quotes = true
+mathjax-support = false
+copy-fonts = true
+no-section-label = false
+git-repository-url = "https://github.com/yourname/vibe-coding-guide"
+edit-url-template = "https://github.com/yourname/vibe-coding-guide/edit/main/{path}"
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.playground]
+editable = true
+copyable = true
+line-numbers = true
+
+[output.html.search]
+enable = true
+limit-results = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
